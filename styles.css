@@ -1,8 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 #header-img{
-    max-width: 100%;
-    width: 60vw;
+    width: 20vw;
     max-height: 100%;
 }
 header{
@@ -15,13 +14,13 @@ header{
     padding-right: 0;
 }
 
-#nav-bar>ul{
+#nav-bar > ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
     flex-direction: row;
     width: 100%;
-    padding-left: 1000px;
+    padding-left: 589px;
 }
 
 a{
@@ -115,4 +114,26 @@ button{
 }
 
 footer{
+    margin-top: 30px;
+    padding: 20px;
 }
+
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
