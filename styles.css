@@ -36,3 +36,60 @@ body{
     font-size: 1.5rem;
 }
 
+form{
+    padding-bottom: 200px;
+    background-color: rgba(238, 238, 238, 0.753);
+    padding-top: 200px;
+}
+
+#email{
+    height: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+#submit{
+    border-radius: 5px;
+    background-color: coral;
+    border: 0;
+    padding: 10px 20px;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+#features{
+    padding-top: 200px;
+    padding-bottom: 210px;
+}
+
+#features >.feature{
+    margin: 80px 20px;
+}
+
+#pricing{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.price-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.type{
+    width: 100%;
+}
+
+h2{
+    width: 100%;
+}
+
+ul{
+    display: block;
+    padding-left: 0px;
+}
