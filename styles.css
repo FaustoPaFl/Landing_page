@@ -1,7 +1,9 @@
-#header-img{
-    width: 300px;
-    max-width: 100%;
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
+#header-img{
+    max-width: 100%;
+    width: 60vw;
+    max-height: 100%;
 }
 header{
     display: flex;
@@ -9,8 +11,28 @@ header{
     position: fixed;
     background-color: #fff;
     top: 0;
-    align-content: center;
+    align-items: center;
+    padding-right: 0;
 }
-body{
 
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 1000px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
