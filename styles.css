@@ -15,7 +15,7 @@ header{
     padding-right: 0;
 }
 
-ul{
+#nav-bar>ul{
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -79,17 +79,40 @@ form{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-color:rgb(14, 14, 14) ;
+    border-style:solid;
+    border-radius: 5px;
+    margin: 50px 50px;
+    justify-content: center;
 }
 
 .type{
     width: 100%;
+    background-color: #eee;
+    padding: 10px 10px;
 }
 
 h2{
     width: 100%;
 }
 
-ul{
+.price-card>ul{
     display: block;
     padding-left: 0px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: coral;
+    border: 0;
+    padding: 10px 40px;
+}
+
+#about-us{
+    padding-bottom: 200px;
+    background-color: rgba(238, 238, 238, 0.753);
+    padding-top: 200px;
+}
+
+footer{
 }
